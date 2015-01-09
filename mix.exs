@@ -15,7 +15,7 @@ defmodule PhxMongoose.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {PhxMongoose, []},
-     applications: [:phoenix, :cowboy, :logger, :mongoose]]
+     applications: [:phoenix, :cowboy, :logger, :mongooseim]]
   end
 
   # Specifies your project dependencies
@@ -24,7 +24,7 @@ defmodule PhxMongoose.Mixfile do
   defp deps do
     [{:phoenix, "~> 0.7.2"},
      {:cowboy, "~> 1.0", override: true},
-     {:mongooseim, git: "https://github.com/esl/MongooseIM.git", branch: "no-rel-required"},
+     {:mongooseim, git: "https://github.com/esl/MongooseIM.git", branch: "phoenix-integration"},
       # overrides
      {:proper,  git: "git://github.com/manopapad/proper.git", tag: "v1.1", override: true},
      {:p1_utils, git: "git://github.com/processone/p1_utils", ref: "9e646e4", override: true},
