@@ -14,7 +14,7 @@
   "lager": {:git, "git://github.com/basho/lager.git", "b6b6cebcb27ccff8acc59ae775acebc2f52e4926", [ref: "2.0.3"]},
   "meck": {:git, "git://github.com/eproxus/meck.git", "dde759050eff19a1a80fd854d7375174b191665d", [tag: "0.8.2"]},
   "mochijson2": {:git, "git://github.com/bjnortier/mochijson2.git", "3663fb01fd98958181adc2d1300c7bfa553e1434", [branch: "master"]},
-  "mongooseim": {:git, "https://github.com/esl/MongooseIM.git", "ada3d28d2e38533435807f75d1302ef296abd51f", [branch: "phoenix-integration"]},
+  "mongooseim": {:git, "https://github.com/esl/MongooseIM.git", "770b9b09e4f6fa2d682bd47f83a565b64ecabfde", [branch: "phoenix-integration"]},
   "mustache": {:git, "git://github.com/mojombo/mustache.erl.git", "d0246fe143058b6404f66cf99fece3ff6e87b7ed", [ref: "d0246fe143058b6404f66cf99fece3ff6e87b7ed"]},
   "p1_cache_tab": {:git, "git://github.com/processone/cache_tab", "7b89d6afb66d8ff9d56671864be74654f5b18e2f", [ref: "7b89d6a"]},
   "p1_stringprep": {:git, "git://github.com/processone/stringprep.git", "9e9e0f8dbe6a70ef36e1d4436b458ca5a77fbcfb", [ref: "9e9e0f8dbe6a70ef36e1d4436b458ca5a77fbcfb"]},
