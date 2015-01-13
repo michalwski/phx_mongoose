@@ -15,7 +15,7 @@ defmodule PhxMongoose.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {PhxMongoose, []},
-     applications: [:phoenix, :cowboy, :logger, :mongooseim]]
+     applications: [:phoenix, :cowboy, :logger, :mongooseim, :ejabberd]]
   end
 
   # Specifies your project dependencies
